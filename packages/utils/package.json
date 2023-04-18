@@ -1,0 +1,17 @@
+{
+  "name": "@target1/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "rollup --config -w",
+    "build": "rollup --config",
+    "dev-ts": "tsc -w -p ./",
+    "build-ts": "tsc -p ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

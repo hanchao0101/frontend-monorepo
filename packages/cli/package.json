@@ -1,0 +1,35 @@
+{
+  "name": "@target1/cli",
+  "version": "1.0.0",
+  "private": false,
+  "description": "项目模板脚手架",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "target1-cli": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc -w -p ./",
+    "build": "tsc -p ./",
+    "tc": "target1-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.15.6",
+    "@types/ora": "^3.2.0"
+  },
+  "dependencies": {
+    "@target1/cli": "^1.0.0",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "inquirer": "^9.1.5",
+    "ora": "^6.2.0"
+  }
+}
